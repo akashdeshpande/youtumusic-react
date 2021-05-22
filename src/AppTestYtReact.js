@@ -3,12 +3,8 @@ import React, { Component } from 'react';
 class ApptestYtReact extends Component {
     
     render() { 
-        return (
-            <div onClick={this.props.playMyVideo}>
-                Play My Video Man!
-            </div>
-        );
+        return (null);
     }
 }
  
-export default ApptestYtReact;
+export default App;
