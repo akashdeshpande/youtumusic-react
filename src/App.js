@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import YouTube from 'react-youtube';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      playerEvent: {},
+      playerPlayVideo: () => {
+
+      }
+    }
+    this.videoOnReady = this.videoOnReady.bind(this);
+  }
+
+  videoOnReady(event) {
+    // access to player in all event handlers via event.target
+    console.log(event);
+
+    this.setState({
+      playerEvent: event,
+      playerPlayVideo: event.target.playVideo
+    });
+  }
+
+  render() { 
+    const opts = {
+      height: '390',
+      width: '640',
+    };
+
+    return ( 
+      <div>
+        <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this.videoOnReady} />
+        <button onClick={this.state.playerPlayVideo}>play</button>
+      </div>
+    );
+  }
 }
-
+ 
 export default App;
