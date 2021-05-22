@@ -1,28 +1,32 @@
 import './App.css';
 import YouTube from 'react-youtube';
 import React, { Component } from 'react';
+import AppTestYtReact from './AppTestYtReact';
 
 
 class App extends Component {
+
   constructor(props){
     super(props);
-    this.state = {
-      playerEvent: {},
-      playerPlayVideo: () => {
 
-      }
+    this.state = {
+      event : {}
     }
     this.videoOnReady = this.videoOnReady.bind(this);
+    this.playMyVideo = this.playMyVideo.bind(this);
   }
 
   videoOnReady(event) {
     // access to player in all event handlers via event.target
-    console.log(event);
-
+    //console.log(event.target);
     this.setState({
-      playerEvent: event,
-      playerPlayVideo: event.target.playVideo
+      event: event
     });
+    //console.log(this.state.event);
+  }
+
+  playMyVideo() {
+    this.state.event.target.playVideo();
   }
 
   render() { 
@@ -34,7 +38,7 @@ class App extends Component {
     return ( 
       <div>
         <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this.videoOnReady} />
-        <button onClick={this.state.playerPlayVideo}>play</button>
+        <AppTestYtReact playMyVideo={this.playMyVideo}/>
       </div>
     );
   }
