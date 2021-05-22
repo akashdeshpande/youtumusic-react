@@ -14,19 +14,32 @@ class App extends Component {
     }
     this.videoOnReady = this.videoOnReady.bind(this);
     this.playMyVideo = this.playMyVideo.bind(this);
+    this.changeVideo = this.changeVideo.bind(this);
   }
 
   videoOnReady(event) {
     // access to player in all event handlers via event.target
-    //console.log(event.target);
+    console.log(event.target);
+
+    console.log(event.target.clearVideo()); // speed
+
     this.setState({
-      event: event
+      event: event,
+      videoId: "2g811Eo7K8U"
     });
     //console.log(this.state.event);
   }
 
   playMyVideo() {
     this.state.event.target.playVideo();
+  }
+
+  changeVideo() {
+    //auZFGkxQSSk
+    //document.querySelector('#myPlayer').setAttribute("videoId", "auZFGkxQSSk");
+    this.setState({
+      videoId: "auZFGkxQSSk"
+    });
   }
 
   render() { 
@@ -37,8 +50,10 @@ class App extends Component {
 
     return ( 
       <div>
-        <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this.videoOnReady} />
-        <AppTestYtReact playMyVideo={this.playMyVideo}/>
+        <YouTube videoId={this.state.videoId} opts={opts} onReady={this.videoOnReady} id="myPlayer" />
+        <AppTestYtReact
+        playMyVideo={this.playMyVideo}
+        changeVideo={this.changeVideo}/>
       </div>
     );
   }

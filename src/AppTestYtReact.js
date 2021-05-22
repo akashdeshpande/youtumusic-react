@@ -4,7 +4,11 @@ class ApptestYtReact extends Component {
     
     render() { 
         return (
-            <button onClick={this.props.playMyVideo}>Play Video</button>
+            <div>
+                <button onClick={this.props.playMyVideo}>Play Video</button>
+                <button onClick={this.props.changeVideo}>Change Video</button>
+            </div>
+            
         );
     }
 }
