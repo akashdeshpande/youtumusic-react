@@ -1,0 +1,14 @@
+.logo-container {
+    width: 300px;
+    height: 88px;
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--mid-dark-grey);
+}
+
+.nav-logo {
+    width: 180px;
+    padding-top: 4px;
+}

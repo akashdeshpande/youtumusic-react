@@ -1,3 +1,8 @@
+## Change logs:
+
+Seperated YT and button with separate components. Change video via button now works
+Started modifying App.js, making it look more pleasing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,11 @@
+#main-space {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.wheat-color {
+    background-color: wheat;
+    flex: 1;
+}

@@ -1,0 +1,8 @@
+.library {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: var(--mid-dark-grey);
+    box-sizing: border-box;
+    padding-left: 24px;
+    overflow-y: auto;
+}

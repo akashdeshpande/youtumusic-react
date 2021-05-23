@@ -1,0 +1,45 @@
+*** App js
+
+<YouTube videoId={this.state.videoId} opts={opts} onReady={this.videoOnReady} id="myPlayer" />
+        <AppTestYtReact
+        playMyVideo={this.playMyVideo}
+        changeVideo={this.changeVideo}/>
+
+
+  constructor(props){
+    super(props);
+
+    this.state = {
+      event : {}
+    }
+    this.videoOnReady = this.videoOnReady.bind(this);
+    this.playMyVideo = this.playMyVideo.bind(this);
+    this.changeVideo = this.changeVideo.bind(this);
+  }
+
+  videoOnReady(event) {
+
+    this.setState({
+      event: event,
+      videoId: "2g811Eo7K8U"
+    });
+    //console.log(this.state.event);
+  }
+
+  playMyVideo() {
+    this.state.event.target.playVideo();
+  }
+
+  changeVideo() {
+    //auZFGkxQSSk
+    //document.querySelector('#myPlayer').setAttribute("videoId", "auZFGkxQSSk");
+    this.setState({
+      videoId: "auZFGkxQSSk"
+    });
+  }
+
+  render() { 
+    const opts = {
+      height: '390',
+      width: '640',
+    };
