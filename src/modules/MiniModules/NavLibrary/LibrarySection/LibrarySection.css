@@ -1,0 +1,35 @@
+.library-section {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.library-section-heading {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: var(--light-text);
+    font-weight: 700;
+}
+
+.library-items {
+    margin-top: 14px;
+}
+
+.library-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.library-item-text {
+    font-size: 18px;
+    margin-left: 16px;
+    font-weight: 600;
+}
+
+.library-item-active {
+    color: var(--accent);
+}

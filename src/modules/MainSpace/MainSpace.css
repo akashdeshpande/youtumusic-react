@@ -3,6 +3,8 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
+    padding-bottom: var(--player-height);
 }
 
 .wheat-color {

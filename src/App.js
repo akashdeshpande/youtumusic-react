@@ -3,15 +3,13 @@ import './App.css';
 import React, { Component } from 'react';
 import MainSpace from './modules/MainSpace/MainSpace';
 
-
-
 class App extends Component {
 
   render() {
     return(
       <div id="app">
         <MainSpace />
-        <div class="player">
+        <div className="player-dummy">
           Player component dummy
         </div>
       </div>

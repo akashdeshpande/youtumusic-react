@@ -1,6 +1,6 @@
 .logo-container {
     width: 300px;
-    height: 88px;
+    min-height: 88px;
     display: flex;
     padding-left: 24px;
     align-items: center;

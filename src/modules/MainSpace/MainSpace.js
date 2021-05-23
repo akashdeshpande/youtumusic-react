@@ -7,7 +7,7 @@ class MainSpace extends Component {
         return (
             <div id="main-space">
                 <LeftNav />
-                <div class="wheat-color">
+                <div className="wheat-color">
                     Remaining space
                 </div>
             </div>

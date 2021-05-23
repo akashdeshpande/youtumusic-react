@@ -2,6 +2,7 @@
 
 Seperated YT and button with separate components. Change video via button now works
 Started modifying App.js, making it look more pleasing
+Left nav design complete, no functionality, just design. Youtube player not added yet
 
 # Getting Started with Create React App
 
