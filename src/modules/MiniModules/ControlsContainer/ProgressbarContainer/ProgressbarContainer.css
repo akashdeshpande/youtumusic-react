@@ -1,0 +1,57 @@
+.progressbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+}
+
+#progressbar {
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        var(--accent) 50%,
+        var(--slider-color) 50%
+    );
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#progressbar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+}
+
+#progressbar::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 0px;
+    background: var(--accent);
+    cursor: pointer;
+}
+
+#progressbar::-ms-thumb {
+    -webkit-appearance: none;
+    height: 14px;
+    width: 14px;
+    border: 0px;
+    border-radius: 50%;
+    background: var(--accent);
+    cursor: pointer;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--light-text);
+}

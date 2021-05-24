@@ -9,7 +9,7 @@ class PlaylistsLibrarySection extends Component {
                 <div className="library-section-heading">
                     Playlists
                 </div>
-                <div classname="library-items">
+                <div className="library-items">
                     <div className="library-item">
                         <div className="fa fa-list"></div>
                         <div className="library-item-text">

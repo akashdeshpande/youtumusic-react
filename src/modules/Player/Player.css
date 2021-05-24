@@ -1,0 +1,7 @@
+#player {
+    position: absolute;
+    bottom: 0;
+    height: var(--player-height);
+    display: flex;
+    width: 100%;
+}

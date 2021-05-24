@@ -2,6 +2,7 @@ import './App.css';
 //import YouTube from 'react-youtube';
 import React, { Component } from 'react';
 import MainSpace from './modules/MainSpace/MainSpace';
+import Player from './modules/Player/Player';
 
 class App extends Component {
 
@@ -9,9 +10,7 @@ class App extends Component {
     return(
       <div id="app">
         <MainSpace />
-        <div className="player-dummy">
-          Player component dummy
-        </div>
+        <Player />
       </div>
     );
   }

@@ -1,0 +1,32 @@
+.song-details-container {
+    display: flex;
+    min-width: 300px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px;
+    white-space: nowrap;
+}
+
+.artist-name {
+    font-size: 14px;
+    color: var(--light-text);
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px;
+    white-space: nowrap;
+}
+
+.song-detail-like-icon {
+    cursor: pointer;
+}

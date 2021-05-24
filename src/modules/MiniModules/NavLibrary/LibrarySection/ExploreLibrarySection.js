@@ -8,11 +8,11 @@ class ExploreLibrarySection extends Component {
                 <div className="library-section-heading">
                     Explore
                 </div>
-                <div classname="library-items">
-                    <div className="library-item">
+                <div className="library-items">
+                    <div className="library-item library-item-active">
                         <div className="fa fa-search"></div>
                         <div className="library-item-text">
-                            Explore
+                            Discover
                         </div>
                     </div>
                 </div>

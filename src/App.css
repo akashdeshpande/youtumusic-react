@@ -23,9 +23,3 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-.player-dummy {
-    position: absolute;
-    bottom: 0;
-    height: var(--player-height);
-}

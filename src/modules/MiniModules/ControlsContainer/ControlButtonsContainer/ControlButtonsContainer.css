@@ -1,0 +1,41 @@
+.contol-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.prev-play-next {
+    display: flex;
+    align-items: center;
+}
+
+.play-btn {
+    font-size: 40px;
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.prev-btn {
+    font-size: 24px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.next-btn {
+    font-size: 24px;
+    margin-left: 48px;
+    cursor: pointer;
+}
+
+.left-buttons {
+    align-items: center;
+    width: 60px;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+    cursor: pointer;
+}
