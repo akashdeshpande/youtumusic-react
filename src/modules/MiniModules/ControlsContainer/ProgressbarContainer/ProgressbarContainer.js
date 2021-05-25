@@ -13,8 +13,9 @@ class ProgressbarContainer extends Component {
         // so calculate number in seconds and call seekTo function, hailing from props
         
         //Math.floor((event.target.value * this.props.duration) / 100)
-        console.log(Math.floor((event.target.value * this.props.duration) / 100));
+        //console.log(Math.floor((event.target.value * this.props.duration) / 100));
 
+        this.props.playerEvent.target.seekTo(Math.floor((event.target.value * this.props.duration) / 100));
     }
 
     render() { 

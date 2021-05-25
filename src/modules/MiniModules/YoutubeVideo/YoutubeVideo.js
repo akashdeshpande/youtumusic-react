@@ -21,6 +21,9 @@ class YoutubeVideo extends Component {
 
     videoOnReady(event) {
         //console.log(event.target.getPlayerState());
+
+        this.props.setPlayerEvent(event);
+        
         this.updateNowPlayingSongName("4URA - Find You");
         this.updateNowPlayingArtist("Frequency Music");
         this.setState({

@@ -13,11 +13,13 @@ class App extends Component {
       nowPlayingArtist: '',
       currentTime: 0,
       duration: 0,
+      playerEvent: {}
     }
   this.updateNowPlayingSongName = this.updateNowPlayingSongName.bind(this);
   this.updateNowPlayingArtist = this.updateNowPlayingArtist.bind(this);
   this.updateCurrentTime = this.updateCurrentTime.bind(this);
   this.updateDuration = this.updateDuration.bind(this);
+  this.setPlayerEvent = this.setPlayerEvent.bind(this);
   }
 
   updateCurrentTime(timeInSeconds) {
@@ -44,6 +46,12 @@ class App extends Component {
     });
   }
 
+  setPlayerEvent(event) {
+    this.setState({
+      playerEvent: event
+    });
+  }
+
   render() {
     return(
       <div id="app">
@@ -53,12 +61,14 @@ class App extends Component {
           updateNowPlayingArtist={this.updateNowPlayingArtist}
           updateCurrentTime={this.updateCurrentTime}
           updateDuration={this.updateDuration}
+          setPlayerEvent={this.setPlayerEvent}
         />
         <Player
           nowPlayinSongName={this.state.nowPlayinSongName}
           nowPlayingArtist={this.state.nowPlayingArtist}
           currentTime={this.state.currentTime}
           duration={this.state.duration}
+          playerEvent={this.state.playerEvent}
         />
       </div>
     );

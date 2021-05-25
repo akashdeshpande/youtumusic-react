@@ -12,6 +12,7 @@ class MainSpace extends Component {
                 updateNowPlayingArtist={this.props.updateNowPlayingArtist}
                 updateCurrentTime={this.props.updateCurrentTime}
                 updateDuration={this.props.updateDuration}
+                setPlayerEvent={this.props.setPlayerEvent}
                 />
                 <div className="content">
                     <div className="top">

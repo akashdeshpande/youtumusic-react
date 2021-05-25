@@ -10,6 +10,7 @@ class ControlsContainer extends Component {
                 <ProgressbarContainer
                     currentTime={this.props.currentTime}
                     duration={this.props.duration}
+                    playerEvent={this.props.playerEvent}
                 />
                 <ControlButtonsContainer />
             </div>
