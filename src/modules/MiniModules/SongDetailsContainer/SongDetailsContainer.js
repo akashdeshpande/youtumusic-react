@@ -7,10 +7,10 @@ class SongDetailsContainer extends Component {
             <div className="song-details-container">
                 <div>
                     <div className="song-name">
-                        Song Name
+                        {this.props.nowPlayinSongName}
                     </div>
                     <div className="artist-name">
-                        Artist
+                        {this.props.nowPlayingArtist}
                     </div>
                 </div>
                 <div className="song-detail-like-icon">

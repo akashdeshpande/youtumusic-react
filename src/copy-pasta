@@ -43,3 +43,132 @@
       height: '390',
       width: '640',
     };
+
+
+
+/*
+YT functions
+addCueRange: function c()​
+clearVideo: function c()
+​
+closure_uid_940777338: 2
+​
+cuePlaylist: function c()​
+cueVideoById: function c()​
+cueVideoByUrl: function c()​
+getApiInterface: function c()​
+getAvailablePlaybackRates: function c()​
+getAvailableQualityLevels: function c()​
+getCurrentTime: function c()​
+getDebugText: function c()​
+getDuration: function c()​
+getMediaReferenceTime: function c()​
+getPlaybackQuality: function c()​
+getPlaybackRate: function c()​
+getPlayerState: function c()​
+getPlaylist: function c()​
+getPlaylistId: function c()​
+getPlaylistIndex: function c()​
+getSphericalProperties: function c()​
+getVideoBytesLoaded: function c()​
+getVideoBytesTotal: function c()​
+getVideoData: function c()​
+getVideoLoadedFraction: function c()​
+getVideoStartBytes: function c()​
+getVideoUrl: function c()​
+getVolume: function c()​
+h: <iframe id="youtubePlayer" allowfullscreen="1" allow="accelerometer; autoplay;…ope; picture-in-picture" title="YouTube video player" src="https://www.youtube.com/…alhost%3A3000&widgetid=2" width="300" height="169" frameborder="0">​
+hideVideoInfo: function c()​
+i: Object { h: true, j: false, i: {…} }
+​
+id: 2
+​
+isMuted: function c()​
+isVideoInfoVisible: function c()
+​
+j: 17
+​
+l: Object { m: false, o: 22, l: 0, … }
+​
+loadModule: function c()​
+loadPlaylist: function c()​
+loadVideoById: function c()​
+loadVideoByUrl: function c()​
+m: <div id="youtubePlayer">
+​
+mute: function c()​
+nextVideo: function c()
+​
+o: true
+​
+pauseVideo: function c()​
+playVideo: function c()​
+playVideoAt: function c()​
+playerInfo: Object { videoBytesLoaded: 0.41301283937615196, videoBytesTotal: 1, videoLoadedFraction: 0.41301283937615196, … }
+​
+previousVideo: function c()​
+removeCueRange: function c()​
+removeEventListener: function c()​
+s: Array []
+​
+seekTo: function c()​
+setLoop: function c()​
+setOption: function c()​
+setPlaybackQuality: function c()​
+setPlaybackRate: function c()​
+setShuffle: function c()​
+setSphericalProperties: function c()​
+setVolume: function c()​
+showVideoInfo: function c()​
+stopVideo: function c()​
+unMute: function c()​
+unloadModule: function c()
+*/
+
+
+Interesting functions
+
+addCueRange: function c()​
+clearVideo: function c()
+removeCueRange: function c()​
+removeEventListener: function c()
+
+getAvailablePlaybackRates: function c()​
+getAvailableQualityLevels: function c()​
+getCurrentTime: function c()​
+getDuration: function c()​
+getMediaReferenceTime: function c()​
+getPlaybackQuality: function c()​
+getPlaybackRate: function c()​
+getPlayerState: function c()​
+getVideoUrl: function c()​
+getVolume: function c()​
+getPlaylist: function c()​
+getPlaylistId: function c()​
+getPlaylistIndex: function c()​
+
+isMuted: function c()​
+
+loadPlaylist: function c()​
+loadVideoById: function c()​
+loadVideoByUrl: function c()​
+
+mute: function c()​
+unMute: function c()​
+nextVideo: function c()
+
+pauseVideo: function c()​
+playVideo: function c()​
+playVideoAt: function c()​
+
+seekTo: function c()​
+setLoop: function c()​
+setOption: function c()​
+setPlaybackQuality: function c()​
+setPlaybackRate: function c()​
+setShuffle: function c()​
+stopVideo: function c()​
+
+
+
+

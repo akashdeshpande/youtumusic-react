@@ -6,7 +6,11 @@ class MainSpace extends Component {
     render() { 
         return (
             <div id="main-space">
-                <LeftNav />
+                <LeftNav
+                youtubeVideoId={this.props.youtubeVideoId}
+                updateNowPlayingSongName={this.props.updateNowPlayingSongName}
+                updateNowPlayingArtist={this.props.updateNowPlayingArtist}
+                />
                 <div className="wheat-color">
                     Remaining space
                 </div>

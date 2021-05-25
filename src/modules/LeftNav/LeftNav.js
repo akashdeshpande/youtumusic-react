@@ -11,7 +11,11 @@ class LeftNav extends Component {
             <div id="left-nav">
                 <WebsiteLogo />
                 <NavLibrary />
-                <YoutubeVideo />
+                <YoutubeVideo
+                youtubeVideoId={this.props.youtubeVideoId}
+                updateNowPlayingSongName={this.props.updateNowPlayingSongName}
+                updateNowPlayingArtist={this.props.updateNowPlayingArtist}
+                />
             </div>
         );
     }

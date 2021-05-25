@@ -7,7 +7,10 @@ class Player extends Component {
     render() { 
         return (
             <div id="player">
-                <SongDetailsContainer />
+                <SongDetailsContainer
+                    nowPlayinSongName={this.props.nowPlayinSongName}
+                    nowPlayingArtist={this.props.nowPlayingArtist}
+                />
                 <ControlsContainer />
             </div>
         );
