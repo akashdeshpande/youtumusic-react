@@ -11,7 +11,10 @@ class Player extends Component {
                     nowPlayinSongName={this.props.nowPlayinSongName}
                     nowPlayingArtist={this.props.nowPlayingArtist}
                 />
-                <ControlsContainer />
+                <ControlsContainer
+                    currentTime={this.props.currentTime}
+                    duration={this.props.duration}
+                />
             </div>
         );
     }

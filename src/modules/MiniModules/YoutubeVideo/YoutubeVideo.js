@@ -12,19 +12,33 @@ class YoutubeVideo extends Component {
                 playerVars: {
                   autoplay: 0,
                 },
-            'origin': 'http://localhost:3000' 
+            pageInterval: () => {  },
+            
             }
         }
         this.videoOnReady = this.videoOnReady.bind(this);
     }
 
     videoOnReady(event) {
-        console.log(event.target.getCurrentTime());
-        console.log(event.target.getDuration());
+        //console.log(event.target.getPlayerState());
         this.updateNowPlayingSongName("4URA - Find You");
         this.updateNowPlayingArtist("Frequency Music");
+        this.setState({
+            pageInterval: setInterval(() => {
+                                this.updateCurrentTime(event.target.getCurrentTime());
+                                this.updateDuration(event.target.getDuration());
+                          }, 100)
+        });
     }
 
+    updateCurrentTime(timeInSeconds) {
+        this.props.updateCurrentTime(timeInSeconds);
+    }
+
+    updateDuration(timeInSeconds) {
+        this.props.updateDuration(timeInSeconds);
+    }
+    
     updateNowPlayingSongName(songName) {
         this.props.updateNowPlayingSongName(songName);
     }
@@ -47,3 +61,15 @@ class YoutubeVideo extends Component {
 }
  
 export default YoutubeVideo;
+
+/* 
+updateCurrentTime={this.props.updateCurrentTime}
+updateDuration={this.props.updateDuration}
+
+setupInterval() {
+    let pageInterval = setInterval(() => {
+      console.log("helo");
+    }, 5000);
+  }
+
+*/

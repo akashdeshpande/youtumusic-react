@@ -29,4 +29,5 @@
 
 .song-detail-like-icon {
     cursor: pointer;
+    color: var(--accent);
 }

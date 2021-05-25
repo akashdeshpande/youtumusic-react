@@ -7,7 +7,10 @@ class ControlsContainer extends Component {
     render() { 
         return (
             <div className="controls-container">
-                <ProgressbarContainer />
+                <ProgressbarContainer
+                    currentTime={this.props.currentTime}
+                    duration={this.props.duration}
+                />
                 <ControlButtonsContainer />
             </div>
         );

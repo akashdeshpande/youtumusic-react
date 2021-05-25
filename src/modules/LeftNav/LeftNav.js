@@ -15,6 +15,8 @@ class LeftNav extends Component {
                 youtubeVideoId={this.props.youtubeVideoId}
                 updateNowPlayingSongName={this.props.updateNowPlayingSongName}
                 updateNowPlayingArtist={this.props.updateNowPlayingArtist}
+                updateCurrentTime={this.props.updateCurrentTime}
+                updateDuration={this.props.updateDuration}
                 />
             </div>
         );

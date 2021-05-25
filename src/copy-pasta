@@ -125,6 +125,15 @@ unMute: function c()​
 unloadModule: function c()
 */
 
+  setupInterval() {
+    let pageInterval = setInterval(() => {
+      console.log("helo");
+    }, 5000);
+  }
+
+  clearInterval(pageInterval);
+
+
 
 Interesting functions
 
