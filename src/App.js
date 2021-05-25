@@ -13,13 +13,15 @@ class App extends Component {
       nowPlayingArtist: '',
       currentTime: 0,
       duration: 0,
-      playerEvent: {}
+      playerEvent: {},
+      playerReady: false
     }
   this.updateNowPlayingSongName = this.updateNowPlayingSongName.bind(this);
   this.updateNowPlayingArtist = this.updateNowPlayingArtist.bind(this);
   this.updateCurrentTime = this.updateCurrentTime.bind(this);
   this.updateDuration = this.updateDuration.bind(this);
   this.setPlayerEvent = this.setPlayerEvent.bind(this);
+  this.setPlayerReady = this.setPlayerReady.bind(this);
   }
 
   updateCurrentTime(timeInSeconds) {
@@ -52,6 +54,12 @@ class App extends Component {
     });
   }
 
+  setPlayerReady(boolValue) {
+    this.setState({
+      playerReady: boolValue
+    });
+  }
+
   render() {
     return(
       <div id="app">
@@ -62,6 +70,7 @@ class App extends Component {
           updateCurrentTime={this.updateCurrentTime}
           updateDuration={this.updateDuration}
           setPlayerEvent={this.setPlayerEvent}
+          setPlayerReady={this.setPlayerReady}
         />
         <Player
           nowPlayinSongName={this.state.nowPlayinSongName}
@@ -69,6 +78,7 @@ class App extends Component {
           currentTime={this.state.currentTime}
           duration={this.state.duration}
           playerEvent={this.state.playerEvent}
+          playerReady={this.state.playerReady}
         />
       </div>
     );

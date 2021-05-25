@@ -18,6 +18,7 @@ class LeftNav extends Component {
                 updateCurrentTime={this.props.updateCurrentTime}
                 updateDuration={this.props.updateDuration}
                 setPlayerEvent={this.props.setPlayerEvent}
+                setPlayerReady={this.props.setPlayerReady}
                 />
             </div>
         );

@@ -14,16 +14,22 @@ class YoutubeVideo extends Component {
                 },
             pageInterval: () => {  },
             
-            }
+            },
+            playerEvent: {}
         }
         this.videoOnReady = this.videoOnReady.bind(this);
     }
 
     videoOnReady(event) {
         //console.log(event.target.getPlayerState());
+        //store event for later
+        this.setState({
+            playerEvent: event
+        });
 
+        this.props.setPlayerReady(true);
         this.props.setPlayerEvent(event);
-        
+
         this.updateNowPlayingSongName("4URA - Find You");
         this.updateNowPlayingArtist("Frequency Music");
         this.setState({
@@ -33,6 +39,7 @@ class YoutubeVideo extends Component {
                           }, 100)
         });
     }
+
 
     updateCurrentTime(timeInSeconds) {
         this.props.updateCurrentTime(timeInSeconds);

@@ -11,6 +11,7 @@ class ControlsContainer extends Component {
                     currentTime={this.props.currentTime}
                     duration={this.props.duration}
                     playerEvent={this.props.playerEvent}
+                    playerReady={this.props.playerReady}
                 />
                 <ControlButtonsContainer />
             </div>
