@@ -11,7 +11,9 @@ class ControlsContainer extends Component {
                     playerEvent={this.props.playerEvent}
                     playerReady={this.props.playerReady}
                 />
-                <ControlButtonsContainer />
+                <ControlButtonsContainer
+                    playerEvent={this.props.playerEvent}
+                />
             </div>
         );
     }
