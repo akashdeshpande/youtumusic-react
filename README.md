@@ -5,7 +5,8 @@ Started modifying App.js, making it look more pleasing\
 Left nav design complete, no functionality, just design. Youtube player not added yet\
 Added bottom player and controls\
 Added YouTube Player, preload song name and stuff from YouTube component\
-Progressbar, seek and time are updating and working as expected
+Progressbar, seek and time are updating and working as expected\
+Mute functionality added
 
 # Getting Started with Create React App
 
