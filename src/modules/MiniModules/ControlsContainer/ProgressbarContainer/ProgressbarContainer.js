@@ -11,39 +11,42 @@ class ProgressbarContainer extends Component {
     setSeek(event) {
         // event.target.value will be out 100, since range is 0 to 100
         // so calculate number in seconds and call seekTo function, hailing from props
-        
-        //Math.floor((event.target.value * this.props.duration) / 100)
-        //console.log(Math.floor((event.target.value * this.props.duration) / 100));
 
-        this.props.playerEvent.target.seekTo(Math.floor((event.target.value * this.props.duration) / 100));
+        this.props.playerEvent.target.seekTo(Math.floor((event.target.value * this.props.playerEvent.target.getDuration()) / 100));
 
-        
     }
 
     render() { 
-        // progressbar value calculation to set value on input type=range
-        let progressbarValue = (this.props.currentTime / this.props.duration) * 100;
-        if(isNaN(progressbarValue)) {
-            progressbarValue = 0;
-        }
+        
+        let progressbarValue = 0;
 
         // setting its style
-        //let progressbarProgressStyleString = `linear-gradient(90deg, var(--accent) ${progressbarValue}%, var(--slider-color) ${progressbarValue}%)`;
-        //document.getElementById("progressbar").style.background = progressbarProgressStyleString;
-
         let inlineStyle = {
-            background: `linear-gradient(90deg, var(--accent) ${progressbarValue}%, var(--slider-color) ${progressbarValue}%)`
+            background: `linear-gradient(90deg, var(--accent) ${0}%, var(--slider-color) ${0}%)`
         };
 
 
         // for elapsed time and duration
-        let elapsedTimeInMinutes = Math.floor(this.props.currentTime / 60);
-        let elapsedTimeInSeconds = Math.floor(this.props.currentTime % 60);
-        let timeDurationInMinutes = Math.floor(this.props.duration / 60);
-        let timeDurationInSeconds = Math.floor(this.props.duration % 60);
+        let elapsedTimeInMinutes = 0;
+        let elapsedTimeInSeconds = 0;
+        let timeDurationInMinutes = 0;
+        let timeDurationInSeconds = 0;
 
-        // set seek on inout change
+        //updating time variables
+        if(this.props.playerEvent.target) {
+            //updating timers
+            elapsedTimeInMinutes = Math.floor(this.props.playerEvent.target.getCurrentTime() / 60);
+            elapsedTimeInSeconds = Math.floor(this.props.playerEvent.target.getCurrentTime() % 60);
+            timeDurationInMinutes = Math.floor(this.props.playerEvent.target.getDuration() / 60);
+            timeDurationInSeconds = Math.floor(this.props.playerEvent.target.getDuration() % 60);
 
+            // progressbar value calculation to set value on input type=range and updating its style
+            progressbarValue = (this.props.playerEvent.target.getCurrentTime() / this.props.playerEvent.target.getDuration()) * 100;
+            inlineStyle = {
+                background: `linear-gradient(90deg, var(--accent) ${progressbarValue}%, var(--slider-color) ${progressbarValue}%)`
+            };
+            
+        }
 
         return (
             <div className="progressbar-container">
@@ -62,7 +65,7 @@ class ProgressbarContainer extends Component {
                         {elapsedTimeInMinutes + ':' + elapsedTimeInSeconds}
                     </div>
                     <div className="time-duration" id="time-duration">
-                    {timeDurationInMinutes + ':' + timeDurationInSeconds}
+                        {timeDurationInMinutes + ':' + timeDurationInSeconds}
                     </div>
                 </div>
             </div>
