@@ -8,8 +8,6 @@ class ControlsContainer extends Component {
         return (
             <div className="controls-container">
                 <ProgressbarContainer
-                    currentTime={this.props.currentTime}
-                    duration={this.props.duration}
                     playerEvent={this.props.playerEvent}
                     playerReady={this.props.playerReady}
                 />

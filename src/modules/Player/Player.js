@@ -12,8 +12,6 @@ class Player extends Component {
                     nowPlayingArtist={this.props.nowPlayingArtist}
                 />
                 <ControlsContainer
-                    currentTime={this.props.currentTime}
-                    duration={this.props.duration}
                     playerEvent={this.props.playerEvent}
                     playerReady={this.props.playerReady}
                 />

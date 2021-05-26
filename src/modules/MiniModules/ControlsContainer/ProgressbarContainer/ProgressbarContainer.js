@@ -5,6 +5,9 @@ class ProgressbarContainer extends Component {
     
     constructor(props) {
         super (props);
+        this.state = {
+            keepRunning: true
+        }
         this.setSeek = this.setSeek.bind(this);
     }
 
@@ -16,7 +19,18 @@ class ProgressbarContainer extends Component {
 
     }
 
+    componentDidMount() {
+        setInterval(() => {
+            if(this.props.playerEvent.target) {
+                this.setState({
+                    keepRunning: true
+                }) 
+            }
+        }, 100);
+    }
+
     render() { 
+
         
         let progressbarValue = 0;
 
@@ -33,7 +47,8 @@ class ProgressbarContainer extends Component {
         let timeDurationInSeconds = 0;
 
         //updating time variables
-        if(this.props.playerEvent.target) {
+        if(this.props.playerEvent.target !== undefined) {
+
             //updating timers
             elapsedTimeInMinutes = Math.floor(this.props.playerEvent.target.getCurrentTime() / 60);
             elapsedTimeInSeconds = Math.floor(this.props.playerEvent.target.getCurrentTime() % 60);

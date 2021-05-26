@@ -11,29 +11,13 @@ class App extends Component {
       youtubeVideoId: 'auZFGkxQSSk',
       nowPlayinSongName: '',
       nowPlayingArtist: '',
-      currentTime: 0,
-      duration: 0,
       playerEvent: {},
       playerReady: false
     }
   this.updateNowPlayingSongName = this.updateNowPlayingSongName.bind(this);
   this.updateNowPlayingArtist = this.updateNowPlayingArtist.bind(this);
-  this.updateCurrentTime = this.updateCurrentTime.bind(this);
-  this.updateDuration = this.updateDuration.bind(this);
   this.setPlayerEvent = this.setPlayerEvent.bind(this);
   this.setPlayerReady = this.setPlayerReady.bind(this);
-  }
-
-  updateCurrentTime(timeInSeconds) {
-    this.setState({
-      currentTime: timeInSeconds
-    });
-  }
-
-  updateDuration(timeInSeconds) {
-    this.setState({
-      duration: timeInSeconds
-    });
   }
 
   updateNowPlayingSongName(songName) {
@@ -67,16 +51,12 @@ class App extends Component {
           youtubeVideoId={this.state.youtubeVideoId}
           updateNowPlayingSongName={this.updateNowPlayingSongName}
           updateNowPlayingArtist={this.updateNowPlayingArtist}
-          updateCurrentTime={this.updateCurrentTime}
-          updateDuration={this.updateDuration}
           setPlayerEvent={this.setPlayerEvent}
           setPlayerReady={this.setPlayerReady}
         />
         <Player
           nowPlayinSongName={this.state.nowPlayinSongName}
           nowPlayingArtist={this.state.nowPlayingArtist}
-          currentTime={this.state.currentTime}
-          duration={this.state.duration}
           playerEvent={this.state.playerEvent}
           playerReady={this.state.playerReady}
         />

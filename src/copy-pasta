@@ -45,6 +45,23 @@
     };
 
 
+/* Progressbarcontainer, extract player state into local state
+    componentDidUpdate() {
+        //console.log("component updated");
+        if(this.props.playerEvent.target !== undefined){
+            if(this.state.localPlayerEvent.target === undefined) {
+                if(this.state.once) {
+                    this.setState({
+                        once: false,
+                        localPlayerEvent: this.props.playerEvent
+                    });
+                    //successfully exracted player state locally
+                }
+            }
+        }
+    }
+*/
+
 
 /*
 YT functions
