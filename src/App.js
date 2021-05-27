@@ -53,6 +53,7 @@ class App extends Component {
           updateNowPlayingArtist={this.updateNowPlayingArtist}
           setPlayerEvent={this.setPlayerEvent}
           setPlayerReady={this.setPlayerReady}
+          playerEvent={this.state.playerEvent}
         />
         <Player
           nowPlayinSongName={this.state.nowPlayinSongName}

@@ -1,5 +1,5 @@
 .info-message {
-    background-color: antiquewhite;
+    background-color: var(--mid-dark-grey);
     color: var(--accent);
     padding: 8px 48px;
     display: flex;

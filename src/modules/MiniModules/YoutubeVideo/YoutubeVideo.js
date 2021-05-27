@@ -51,15 +51,3 @@ class YoutubeVideo extends Component {
 }
  
 export default YoutubeVideo;
-
-/* 
-updateCurrentTime={this.props.updateCurrentTime}
-updateDuration={this.props.updateDuration}
-
-setupInterval() {
-    let pageInterval = setInterval(() => {
-      console.log("helo");
-    }, 5000);
-  }
-
-*/

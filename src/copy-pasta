@@ -96,6 +96,18 @@ console.log(arr);
 
 
 
+<LargeThumbnailVideoContainer
+    playerEvent={this.props.playerEvent}
+    videoId="ilt0gIhyPUQ"
+    imgUrl=""
+/>
+<LargeThumbnailVideoContainer
+    playerEvent={this.props.playerEvent}
+    videoId="8bNuK8BUcs8"
+    imgUrl=""
+/>
+
+
 
 /*
 YT functions
