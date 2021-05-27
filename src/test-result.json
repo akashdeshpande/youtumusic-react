@@ -1,0 +1,337 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "KiAJkHgxoNb19rVLhPrjvuwa4fY",
+    "items": [
+      {
+        "kind": "youtube#video",
+        "etag": "oLFtcaEi69xU5jpDOfW_AkTsrYQ",
+        "id": "WMweEpGlu_U",
+        "snippet": {
+          "publishedAt": "2021-05-21T03:46:13Z",
+          "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+          "title": "BTS (방탄소년단) 'Butter' Official MV",
+          "description": "BTS (방탄소년단) 'Butter' Official MV \n\n\nCredits: \nDirector: Yong Seok Choi (Lumpens)\n1st AD: Jihye Yoon (Lumpens)\n2nd AD: Ran Ro (Lumpens)\nPA: Soeyoung Park, Minsu Kim\n\nDirector of Photography: Hyunwoo Nam (MOTHER)\nB Camera Operator: Eumko\nFocus Puller: Sangwoo Yun, Youngwoo Lee\n2nd AC: Eunki Kim, Eunil Lee\n3rd AC: Youngseo Park\nDIT: Yuntae Go\nTechno Crane: Service Vision\n\nGaffer: Song Hyunsuk (Real Lighting)\nLighting Crew: Choi Jung Hyun, Hwang Uigyu, Park Gyutae, Park Yeonghwan, Park Cheonil, Lee Harim, Park Nojun, Lee Jaeheung, Lee Seonggyun, Lim Seokgyu\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art team: Yeri Kang, Jieun Yoon(MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nShow Light: Sung Kang Jun (Jshow Company)\nMinseok Choi, Minseok Choi, Yebum Bang, Junho Jeong, Jiwoong Han, Yerim Kwon, Haeyoung Kang\n\nProducer: Emma Sungeun Kim (GE PRODUCTION)\nProduction assistant: An Ju Young, Han Ji Hoon\n\nVFX: PLASTIC BEACH\nVFX Supervisor: OHZEON\nVFX Assistant Supervisor: JOJEEM\nVFX Project Manager: Song Chanyoung, Jeong Jieun\nVFX Producer: Jang Kyutae, Ahn Sohyun\n3D Artist: Lee Kwangwon, Kim Doyeon, Lee Jeonghwa, Jeon Jiwon, Kim Hyeji\n2D Artist: Jang Gihoon, Lee Hyunjun, Shin Hyeonsung\nFX Artist: We Jungin\n\nDI: LUCID COLOUR\nColorist: Wonseok Ko\nDI Crew: Dain Kim, Hwa Dong Jeon, Jaeyeon Baek, Somi Na, Seonyoung Lee\nDI Producer: Sooyun Hyun\n\nVisual Creative: Nu Kim, Lee Sun Kyoung, Kang Ju Eun, Kim Ga Eun, Hyo Kim, Cha Yeon Hwa\nPerformance Directing: Son Sung Deuk, Lee Byung Eun, Yoon Seong Eun, Woo Hyunwoo, Hyewon Park\nArtist Management: Jang Jin Gu, Kim Su Bin, An Da Sol, Park Jun Tae, Yun Taewoong, Lee Seung Byung, Lee Jung Min, Lee Hyeon Ki\n\n\n\nBIGHIT MUSIC. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by BIGHIT MUSIC, Seoul, Korea.\n\n\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n\n#BTS #방탄소년단 #BTS_Butter #MV",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WMweEpGlu_U/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/WMweEpGlu_U/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "HYBE LABELS",
+          "tags": [
+            "BIGHIT",
+            "빅히트",
+            "방탄소년단",
+            "BTS",
+            "BANGTAN",
+            "방탄"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "defaultLanguage": "ko",
+          "localized": {
+            "title": "BTS (방탄소년단) 'Butter' Official MV",
+            "description": "BTS (방탄소년단) 'Butter' Official MV \n\n\nCredits: \nDirector: Yong Seok Choi (Lumpens)\n1st AD: Jihye Yoon (Lumpens)\n2nd AD: Ran Ro (Lumpens)\nPA: Soeyoung Park, Minsu Kim\n\nDirector of Photography: Hyunwoo Nam (MOTHER)\nB Camera Operator: Eumko\nFocus Puller: Sangwoo Yun, Youngwoo Lee\n2nd AC: Eunki Kim, Eunil Lee\n3rd AC: Youngseo Park\nDIT: Yuntae Go\nTechno Crane: Service Vision\n\nGaffer: Song Hyunsuk (Real Lighting)\nLighting Crew: Choi Jung Hyun, Hwang Uigyu, Park Gyutae, Park Yeonghwan, Park Cheonil, Lee Harim, Park Nojun, Lee Jaeheung, Lee Seonggyun, Lim Seokgyu\n\nArt Director: Bona Kim, Jinsil Park (MU:E)\nAssistant Art team: Yeri Kang, Jieun Yoon(MU:E)\nArt-team Manager: ilho Heo (MU:E)\n\nShow Light: Sung Kang Jun (Jshow Company)\nMinseok Choi, Minseok Choi, Yebum Bang, Junho Jeong, Jiwoong Han, Yerim Kwon, Haeyoung Kang\n\nProducer: Emma Sungeun Kim (GE PRODUCTION)\nProduction assistant: An Ju Young, Han Ji Hoon\n\nVFX: PLASTIC BEACH\nVFX Supervisor: OHZEON\nVFX Assistant Supervisor: JOJEEM\nVFX Project Manager: Song Chanyoung, Jeong Jieun\nVFX Producer: Jang Kyutae, Ahn Sohyun\n3D Artist: Lee Kwangwon, Kim Doyeon, Lee Jeonghwa, Jeon Jiwon, Kim Hyeji\n2D Artist: Jang Gihoon, Lee Hyunjun, Shin Hyeonsung\nFX Artist: We Jungin\n\nDI: LUCID COLOUR\nColorist: Wonseok Ko\nDI Crew: Dain Kim, Hwa Dong Jeon, Jaeyeon Baek, Somi Na, Seonyoung Lee\nDI Producer: Sooyun Hyun\n\nVisual Creative: Nu Kim, Lee Sun Kyoung, Kang Ju Eun, Kim Ga Eun, Hyo Kim, Cha Yeon Hwa\nPerformance Directing: Son Sung Deuk, Lee Byung Eun, Yoon Seong Eun, Woo Hyunwoo, Hyewon Park\nArtist Management: Jang Jin Gu, Kim Su Bin, An Da Sol, Park Jun Tae, Yun Taewoong, Lee Seung Byung, Lee Jung Min, Lee Hyeon Ki\n\n\n\nBIGHIT MUSIC. Rights are reserved selectively in the video. Unauthorized reproduction is a violation of applicable laws. Manufactured by BIGHIT MUSIC, Seoul, Korea.\n\n\n\nConnect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com\n\n\n#BTS #방탄소년단 #BTS_Butter #MV"
+          },
+          "defaultAudioLanguage": "en"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "Iwi56kotHG1vp0c-19Ks86s2hz8",
+        "id": "c8UUWkUJu6E",
+        "snippet": {
+          "publishedAt": "2021-05-23T06:30:12Z",
+          "channelId": "UC9ChdqQRCaZmTCwSJ49tcbw",
+          "title": "US (Official Video) Sidhu Moose Wala | Raja Kumari | The Kidd | Sukh Sanghera | Moosetape",
+          "description": "Sidhu Moose Wala Presents Official Music Video of  \"US\" from Moosetape\n\nAlbum : Moosetape \nSong: Us\nSinger/Lyrics/Composer: Sidhu Moosewala ft. Raja Kumari\nFemale Lead: Preet Aujla\nMusic: The Kidd\nMix Master - Dense \nVideo - Sukh Sanghera\nOnline Promotions - Gold Media Entertainment, One Digital Entertainment\nLabel : Sidhu Moosewala\n\nDOP: Sam Malhi\nProduction: 10+1 UK (Mandeep Hundal)\nEditor: GS Bhari\nMakeup/Hair: Elena Marcu\n1st AC: Akash Masoun\nGaffer: Gursimran Sidhu\nDirector/Concept :Sukh Sanghera\n\n\n\nEnjoy And Stay Connected With Artist || SIDHU MOOSE WALA\n\n\nClick to Subscribe - https://bit.ly/SidhuMooseWalaSubscribe\nTwitter - https://www.twitter.com/iSidhuMooseWala\nFacebook - https://www.facebook.com/SidhuMooseWala\nInstagram - https://instagram.com/Sidhu_MooseWala\nSnapChat - https://www.snapchat.com/add/SidhuShubh",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/c8UUWkUJu6E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/c8UUWkUJu6E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/c8UUWkUJu6E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/c8UUWkUJu6E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/c8UUWkUJu6E/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Sidhu Moose Wala",
+          "tags": [
+            "sidhu moosewala",
+            "sidhu moosewala latest song",
+            "sidhu moosewala leaked songs",
+            "sidhu moosewala official videos",
+            "sidhu moosewala official song",
+            "latest punjabi song 2020",
+            "us official video",
+            "oh thora bhola",
+            "us official song raja kumari",
+            "new punjabi songs 2021",
+            "us new song sidhu moose wala",
+            "sidhu moose wala video",
+            "sidhu moose wala us",
+            "us",
+            "life katheya vitoni sada goal a",
+            "oh nai bolda",
+            "romantic song sidhu",
+            "sidhu moose wala",
+            "sidhu moose wala new song",
+            "punjabi romantic song",
+            "2021"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "US (Official Video) Sidhu Moose Wala | Raja Kumari | The Kidd | Sukh Sanghera | Moosetape",
+            "description": "Sidhu Moose Wala Presents Official Music Video of  \"US\" from Moosetape\n\nAlbum : Moosetape \nSong: Us\nSinger/Lyrics/Composer: Sidhu Moosewala ft. Raja Kumari\nFemale Lead: Preet Aujla\nMusic: The Kidd\nMix Master - Dense \nVideo - Sukh Sanghera\nOnline Promotions - Gold Media Entertainment, One Digital Entertainment\nLabel : Sidhu Moosewala\n\nDOP: Sam Malhi\nProduction: 10+1 UK (Mandeep Hundal)\nEditor: GS Bhari\nMakeup/Hair: Elena Marcu\n1st AC: Akash Masoun\nGaffer: Gursimran Sidhu\nDirector/Concept :Sukh Sanghera\n\n\n\nEnjoy And Stay Connected With Artist || SIDHU MOOSE WALA\n\n\nClick to Subscribe - https://bit.ly/SidhuMooseWalaSubscribe\nTwitter - https://www.twitter.com/iSidhuMooseWala\nFacebook - https://www.facebook.com/SidhuMooseWala\nInstagram - https://instagram.com/Sidhu_MooseWala\nSnapChat - https://www.snapchat.com/add/SidhuShubh"
+          },
+          "defaultAudioLanguage": "en"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "3wz4X-ysl-M7cx8HzTbEGWdixv0",
+        "id": "T7lhGz6Bfik",
+        "snippet": {
+          "publishedAt": "2021-05-24T03:30:04Z",
+          "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+          "title": "BTS (방탄소년단) 'Butter' @ Billboard Music Awards",
+          "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/T7lhGz6Bfik/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/T7lhGz6Bfik/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/T7lhGz6Bfik/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/T7lhGz6Bfik/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/T7lhGz6Bfik/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "BANGTANTV",
+          "tags": [
+            "방탄소년단",
+            "BTS",
+            "BANGTAN",
+            "HIPHOP",
+            "알엠",
+            "RM",
+            "슈가",
+            "SUGA",
+            "제이홉",
+            "jhope",
+            "지민",
+            "JIMIN",
+            "정국",
+            "JUNGKOOK",
+            "JIN"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "defaultLanguage": "ko",
+          "localized": {
+            "title": "BTS (방탄소년단) 'Butter' @ Billboard Music Awards",
+            "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://channels.vlive.tv/FE619 \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://i.youku.com/btsofficial \nhttp://btsblog.ibighit.com"
+          },
+          "defaultAudioLanguage": "ko"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "T-NjbSvHGyAmtOuGMU0mdxx0o9Q",
+        "id": "JUx23wZMn5E",
+        "snippet": {
+          "publishedAt": "2021-05-18T05:30:01Z",
+          "channelId": "UCLtNvbkqea8wN_kGtfgx_Mw",
+          "title": "KHAD TAINU MAIN DASSA - Neha Kakkar & Rohanpreet Singh | Rajat Nagpal | Kaptaan | Anshul Garg",
+          "description": "Anshul Garg Presents Khad Tainu Main Dassa by Selfie Queen Neha Kakkar & Gabru Rohanpreet Singh.\n\n\nGaana: https://gaana.com/song/khad-tainu-main-dassa\nSpotify: https://open.spotify.com/track/38SHGnYLRMQJ7MzaU6fkCl?si=zkNqWB2aSbCE3SIwsyuZeQ&utm_source=whatsapp\nAmazon Music: https://music.amazon.in/albums/B0953GXNN4?trackAsin=B0953DYCKT&ref=dm_sh_um4vQm72sz4FnZNmRxQP4g4RQ\nResso: https://m.resso.app/ZSJPNMST6/\nYouTube Music: https://music.youtube.com/watch?v=QyAUoGoiGPI&feature=share\nSaavn: https://www.saavn.com/s/song/punjabi/Khad-Tainu-Main-Dassa/Khad-Tainu-Main-Dassa/MzwvBllqQQY?referrer=utm_medium=whatsapp&utm_source=whatsapp\n\nSinger: Neha Kakkar & Rohanpreet Singh\nMusic: Rajat Nagpal\nLyrics: Kaptaan\nMixed by Rajat Nagpal \nMastered by Naweed at Whitfield Mastering, London. \nRecorded by Rahul Sharma assist by Samir Dharap at Studio504 \nGuitars & Strokes Shomu Seal\nFeaturing: Neha Kakkar & Rohanpreet Singh\n\nProducer - Anshul Garg\n\nDirector - Agam Mann & Azeem Mann\nVideo Supervisor - Raghav Sharma\nDOP - Shinda Singh \nProject Manager - Piyush Chandak\nDI Coloring- Onkar Singh \nArt Director - Rajan Art \nChoreographer - John\nADs - Ashish Uppal, Jass Panesar, Ravi Goyal, Prateek Bangia\nProduction - R S Film Production \nAssociate Production - Jogi Productions\nVFX - Inside Motion Pictures\nArtwork - Vicky Sandhu\n\nFor Neha Kakkar: \nMake up: Ritika Vats\nHair: Kimberly Chu \nStylist: Ruchi Kapoor \n\nFor Rohanpreet Singh: \nMake up: Ritika Vats \nStylist: Ruchi Kapoor\n\nDistribution - Believe Digital\nPromotions - Underdog Digital\nTRAVEL PARTNER - PRM HOSPITALITY PVT LTD\n\nLyrics : \n\n\nTu viaah ton phln hor c ve hor hogeai\nSidha kio ni kehnda maitho bor hogea\nHun kihde tainu khaab laage aoun\nBina love u khe tu laagei soun ve khad tainu main dsa\n\nHun mainu puchda tu kaun ve khad tainu main dsa\n\nChalo mummy nu shkiyat teri laun ve khad tainu main dsa\n\nJ app kre galti jwaak bann janai\nJ maitho hoje fer mera baap bann janai\nKde bhola kde tu chlaak bann janai\nShreef kde kde badmash bann janai\n\nApp daily check krre mera fon\nj main manga lagge nakhre dikhaun\nkhad tainu main dssa \nMain tere uche uche nakhreee \n\n\nJ taitho mistake hoje mukkr jani ae\nGusse hoke gaddi vicho uttr jani ae\nMain galti na galti j krdean\nChad fir mere sir uppr jani\n ae\n\n\nKaptaan change hogi teri tone \napp gora mnu aakhree  brown\nkhad tainu main dssa\n\n\nHun mainu puchda tu kon......\n\nTere uche uche nakhre chkkan ni khad tainu\nmain dssan\nMainu tavi mada kehndi teri maa ni khad tainu main dssan\n#NehaKakkar #RohanpreetSingh #NehuPreet",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/JUx23wZMn5E/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JUx23wZMn5E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JUx23wZMn5E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JUx23wZMn5E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/JUx23wZMn5E/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Desi Music Factory",
+          "tags": [
+            "tony kakkar",
+            "neha kakkar",
+            "sonu kakkar",
+            "music",
+            "song",
+            "desi music factory",
+            "Nehupreet",
+            "Rohanpreet new song",
+            "Latest punjabi song 2021",
+            "Punjabi songs",
+            "Karan Aujla new song",
+            "Neha Kakkar new song",
+            "Sidhu moosewala",
+            "Paani di gal",
+            "Nikle current",
+            "Tony kakkar new song",
+            "Baarish ki jaye",
+            "Saiyaan ji",
+            "Jass manak new song",
+            "Parmish verma new song"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "KHAD TAINU MAIN DASSA - Neha Kakkar & Rohanpreet Singh | Rajat Nagpal | Kaptaan | Anshul Garg",
+            "description": "Anshul Garg Presents Khad Tainu Main Dassa by Selfie Queen Neha Kakkar & Gabru Rohanpreet Singh.\n\n\nGaana: https://gaana.com/song/khad-tainu-main-dassa\nSpotify: https://open.spotify.com/track/38SHGnYLRMQJ7MzaU6fkCl?si=zkNqWB2aSbCE3SIwsyuZeQ&utm_source=whatsapp\nAmazon Music: https://music.amazon.in/albums/B0953GXNN4?trackAsin=B0953DYCKT&ref=dm_sh_um4vQm72sz4FnZNmRxQP4g4RQ\nResso: https://m.resso.app/ZSJPNMST6/\nYouTube Music: https://music.youtube.com/watch?v=QyAUoGoiGPI&feature=share\nSaavn: https://www.saavn.com/s/song/punjabi/Khad-Tainu-Main-Dassa/Khad-Tainu-Main-Dassa/MzwvBllqQQY?referrer=utm_medium=whatsapp&utm_source=whatsapp\n\nSinger: Neha Kakkar & Rohanpreet Singh\nMusic: Rajat Nagpal\nLyrics: Kaptaan\nMixed by Rajat Nagpal \nMastered by Naweed at Whitfield Mastering, London. \nRecorded by Rahul Sharma assist by Samir Dharap at Studio504 \nGuitars & Strokes Shomu Seal\nFeaturing: Neha Kakkar & Rohanpreet Singh\n\nProducer - Anshul Garg\n\nDirector - Agam Mann & Azeem Mann\nVideo Supervisor - Raghav Sharma\nDOP - Shinda Singh \nProject Manager - Piyush Chandak\nDI Coloring- Onkar Singh \nArt Director - Rajan Art \nChoreographer - John\nADs - Ashish Uppal, Jass Panesar, Ravi Goyal, Prateek Bangia\nProduction - R S Film Production \nAssociate Production - Jogi Productions\nVFX - Inside Motion Pictures\nArtwork - Vicky Sandhu\n\nFor Neha Kakkar: \nMake up: Ritika Vats\nHair: Kimberly Chu \nStylist: Ruchi Kapoor \n\nFor Rohanpreet Singh: \nMake up: Ritika Vats \nStylist: Ruchi Kapoor\n\nDistribution - Believe Digital\nPromotions - Underdog Digital\nTRAVEL PARTNER - PRM HOSPITALITY PVT LTD\n\nLyrics : \n\n\nTu viaah ton phln hor c ve hor hogeai\nSidha kio ni kehnda maitho bor hogea\nHun kihde tainu khaab laage aoun\nBina love u khe tu laagei soun ve khad tainu main dsa\n\nHun mainu puchda tu kaun ve khad tainu main dsa\n\nChalo mummy nu shkiyat teri laun ve khad tainu main dsa\n\nJ app kre galti jwaak bann janai\nJ maitho hoje fer mera baap bann janai\nKde bhola kde tu chlaak bann janai\nShreef kde kde badmash bann janai\n\nApp daily check krre mera fon\nj main manga lagge nakhre dikhaun\nkhad tainu main dssa \nMain tere uche uche nakhreee \n\n\nJ taitho mistake hoje mukkr jani ae\nGusse hoke gaddi vicho uttr jani ae\nMain galti na galti j krdean\nChad fir mere sir uppr jani\n ae\n\n\nKaptaan change hogi teri tone \napp gora mnu aakhree  brown\nkhad tainu main dssa\n\n\nHun mainu puchda tu kon......\n\nTere uche uche nakhre chkkan ni khad tainu\nmain dssan\nMainu tavi mada kehndi teri maa ni khad tainu main dssan\n#NehaKakkar #RohanpreetSingh #NehuPreet"
+          },
+          "defaultAudioLanguage": "hi"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "y0OfnRKOdgo5u372YHRLVjlAL6w",
+        "id": "fqM8DJIZIDw",
+        "snippet": {
+          "publishedAt": "2021-05-13T10:29:52Z",
+          "channelId": "UCNApqoVYJbYSrni4YsbXzyQ",
+          "title": "#VakeelSaab\u200b - Maguva Maguva Full Video Song | Pawan Kalyan | Sriram Venu | Sid Sriram | Thaman S",
+          "description": "Watch & Enjoy #MaguvaMaguva\u200b Full Video Song From #VakeelSaab\u200b Movie. \n\n#PawanKalyan\u200b #ThamanS\u200b #SidSriram\u200b #RamajogayyaSastry\u200b\n\nAudio Also Available On  \nWynk Music► http://bit.ly/3cKgxmo\u200b \nSpotify► https://spoti.fi/335dWPf\u200b\nAmazon Music► https://amzn.to/330RPJQ\u200b\nAppleMusic► https://apple.co/3cRIoRt\u200b \nJioSaavn- https://bit.ly/2OnoC5j\u200b\n\nSong - Maguva Maguva\nMusic - Thaman S\nSinger - Sid Sriram\nLyrics - Ramajogayya Sastry\n\nCast & Crew :\nWritten and Directed by Sriram Venu\nProduced By - Raju - Shirish\nCo-Producer - Harshith Reddy\nDop - P S Vinod\nProduction Design - Rajeevan\nSri Venkateshwara Creations\nPresents - Boney Kapoor\nEditor - Prawin Pudi\nDialogues Thiru\nAction - Ravi Verma\nVFX Supervisor - Yugandhar T\nSketches - AJ\nVideo Composition - Walls And Trends\n\nSong Credits:\n\nProgrammed & arranged by Thaman S \nLyrical supervision - Sri Krishna \nChennai string section \nConducted by - Prabhakar & Ravi Raghav \nMacedonian orchestra recorded at Skopje fames project Arranged by - Prassanna B \nAdditional programming - SiDdhanth &Osho V \nHyderabad harmony - Ramya, Gayathri Sruthi \nAditi Yamini & Mohana \nChennai harmony - Veena Swagatha Hari Priya Soumya \nMandolin & strings - tapas toy & Ankur Mukherjee \nFlute - Naveen & Kamalakar \nRecorded at YRF & V studios & prasad labs \nMixed & mastered by - Shadab Rayeen \nAt New edge Mumbai & NY \nAssisted by - Dhanajey & Abhishek \nMusicians co ordinator - Manigandan \nStudio assistance - Seenu Kannan & Lingam\n------------------------------------------------------------------------------------------\nEnjoy and stay connected with us!!\n►Subscribe us on Youtube: http://bit.ly/adityamusic\n►Like us on Facebook: http://www.facebook.com/adityamusic\n►Follow us on Twitter: http://www.twitter.com/adityamusic\n►Follow us on Instagram: https://www.instagram.com/adityamusicindia\n►Follow us on LinkedIn: http://bit.ly/2Pp6ze3\n\nSUBSCRIBE Aditya Music Channels for unlimited entertainment:\n►For New Movies in HD: http://www.youtube.com/Adityamovies\n►For Songs with Lyrics: https://www.youtube.com/AdityaMusic\n►For Devotional Songs: http://www.youtube.com/AdityaDevotional\n►For Kids Educational: http://www.youtube.com/AdityaKids\n\n→\"మా పాట మీ నోట\" Telugu Lyrical Songs - http://bit.ly/1B2EcJG\n→Latest Tollywood Lyric Video Songs - http://bit.ly/1Km97mg\n→Ever Green Classics - https://goo.gl/1fZEDy\n→Popular Jukeboxes - https://goo.gl/LNvAIo\n→Telugu Songs with Lyrics - https://goo.gl/7ZmgWT\n\n© 2021 Aditya Music India Pvt. Ltd.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/fqM8DJIZIDw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/fqM8DJIZIDw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/fqM8DJIZIDw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/fqM8DJIZIDw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/fqM8DJIZIDw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Aditya Music",
+          "tags": [
+            "maguva maguva song",
+            "maguva maguva video song",
+            "maguva maguva full song",
+            "maguva maguva full video song",
+            "maguva maguva cover song",
+            "vakheel saab maguva maguva song",
+            "vakeel ssab maguva maguva full video song",
+            "maguva movie songs",
+            "maguva maguva",
+            "ramajogayya sastry maguva maguva",
+            "sid sriram maguva maguva",
+            "thaman s maguva maguva",
+            "vakheel saab video song",
+            "pawan kalyan vakheel saab",
+            "Aditya music",
+            "latest telugu songs",
+            "pspk songs",
+            "pspk 27",
+            "pspk new song",
+            "sid sriram songs",
+            "s. thaman"
+          ],
+          "categoryId": "10",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "#VakeelSaab\u200b - Maguva Maguva Full Video Song | Pawan Kalyan | Sriram Venu | Sid Sriram | Thaman S",
+            "description": "Watch & Enjoy #MaguvaMaguva\u200b Full Video Song From #VakeelSaab\u200b Movie. \n\n#PawanKalyan\u200b #ThamanS\u200b #SidSriram\u200b #RamajogayyaSastry\u200b\n\nAudio Also Available On  \nWynk Music► http://bit.ly/3cKgxmo\u200b \nSpotify► https://spoti.fi/335dWPf\u200b\nAmazon Music► https://amzn.to/330RPJQ\u200b\nAppleMusic► https://apple.co/3cRIoRt\u200b \nJioSaavn- https://bit.ly/2OnoC5j\u200b\n\nSong - Maguva Maguva\nMusic - Thaman S\nSinger - Sid Sriram\nLyrics - Ramajogayya Sastry\n\nCast & Crew :\nWritten and Directed by Sriram Venu\nProduced By - Raju - Shirish\nCo-Producer - Harshith Reddy\nDop - P S Vinod\nProduction Design - Rajeevan\nSri Venkateshwara Creations\nPresents - Boney Kapoor\nEditor - Prawin Pudi\nDialogues Thiru\nAction - Ravi Verma\nVFX Supervisor - Yugandhar T\nSketches - AJ\nVideo Composition - Walls And Trends\n\nSong Credits:\n\nProgrammed & arranged by Thaman S \nLyrical supervision - Sri Krishna \nChennai string section \nConducted by - Prabhakar & Ravi Raghav \nMacedonian orchestra recorded at Skopje fames project Arranged by - Prassanna B \nAdditional programming - SiDdhanth &Osho V \nHyderabad harmony - Ramya, Gayathri Sruthi \nAditi Yamini & Mohana \nChennai harmony - Veena Swagatha Hari Priya Soumya \nMandolin & strings - tapas toy & Ankur Mukherjee \nFlute - Naveen & Kamalakar \nRecorded at YRF & V studios & prasad labs \nMixed & mastered by - Shadab Rayeen \nAt New edge Mumbai & NY \nAssisted by - Dhanajey & Abhishek \nMusicians co ordinator - Manigandan \nStudio assistance - Seenu Kannan & Lingam\n------------------------------------------------------------------------------------------\nEnjoy and stay connected with us!!\n►Subscribe us on Youtube: http://bit.ly/adityamusic\n►Like us on Facebook: http://www.facebook.com/adityamusic\n►Follow us on Twitter: http://www.twitter.com/adityamusic\n►Follow us on Instagram: https://www.instagram.com/adityamusicindia\n►Follow us on LinkedIn: http://bit.ly/2Pp6ze3\n\nSUBSCRIBE Aditya Music Channels for unlimited entertainment:\n►For New Movies in HD: http://www.youtube.com/Adityamovies\n►For Songs with Lyrics: https://www.youtube.com/AdityaMusic\n►For Devotional Songs: http://www.youtube.com/AdityaDevotional\n►For Kids Educational: http://www.youtube.com/AdityaKids\n\n→\"మా పాట మీ నోట\" Telugu Lyrical Songs - http://bit.ly/1B2EcJG\n→Latest Tollywood Lyric Video Songs - http://bit.ly/1Km97mg\n→Ever Green Classics - https://goo.gl/1fZEDy\n→Popular Jukeboxes - https://goo.gl/LNvAIo\n→Telugu Songs with Lyrics - https://goo.gl/7ZmgWT\n\n© 2021 Aditya Music India Pvt. Ltd."
+          },
+          "defaultAudioLanguage": "en"
+        }
+      }
+    ],
+    "nextPageToken": "CAUQAA",
+    "pageInfo": {
+      "totalResults": 72,
+      "resultsPerPage": 5
+    }
+  }
+  

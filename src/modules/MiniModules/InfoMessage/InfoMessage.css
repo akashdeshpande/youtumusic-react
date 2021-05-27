@@ -1,0 +1,16 @@
+.info-message {
+    background-color: antiquewhite;
+    color: var(--accent);
+    padding: 8px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-body {
+    margin-right: 32px;
+}
+
+.message-close {
+    cursor: pointer;
+}

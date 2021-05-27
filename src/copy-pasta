@@ -62,6 +62,40 @@
     }
 */
 
+Promise using set time out
+
+function later(delay) {
+    return new Promise(function(resolve) {
+        setTimeout(resolve, delay);
+    });
+}
+
+
+
+Array shift by 1 position
+
+let arr = [50, 30, 90, 60, 20];
+
+// [50, 30, 90, 60, 20]
+
+// op: [50, 90, 30, 60, 20]
+// shift up logic
+
+let indexPosToShift = 2;
+let arrElem = arr.splice(indexPosToShift, 1);
+arr.splice(indexPosToShift-1, 0, arrElem[0])
+
+console.log(arr);
+
+// op: [50, 90, 60, 30, 20]
+//shift down logic
+indexPosToShift = 2;
+arrElem = arr.splice(indexPosToShift, 1);
+arr.splice(indexPosToShift+1, 0, arrElem[0]);
+console.log(arr);
+
+
+
 
 /*
 YT functions

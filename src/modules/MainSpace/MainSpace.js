@@ -1,6 +1,9 @@
 import './MainSpace.css'
 import React, { Component } from 'react';
 import LeftNav from './../LeftNav/LeftNav';
+import SearchBar from '../MiniModules/SearchBar/SearchBar';
+import UserProfile from '../MiniModules/UserProfile/UserProfile';
+import InfoMessage from '../MiniModules/InfoMessage/InfoMessage';
 
 class MainSpace extends Component {
     render() { 
@@ -15,19 +18,10 @@ class MainSpace extends Component {
                 />
                 <div className="content">
                     <div className="top">
-                        <input type="text" id="search-bar" placeholder="Search..."/>
-                        <div id="user-profile">
-
-                        </div>
+                        <SearchBar />
+                        <UserProfile />
                     </div>
-                    <div className="info-message">
-                        <div>
-                            I am a message
-                        </div>
-                        <div>
-                            X
-                        </div>
-                    </div>
+                    <InfoMessage />
                     <div className="workspace">
                         I am a workspace
                     </div>
