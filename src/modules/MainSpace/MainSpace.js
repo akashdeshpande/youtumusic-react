@@ -61,6 +61,7 @@ class MainSpace extends Component {
                         <div className="search-results">
                             {
                                 result.items.map((element) => <LargeThumbnailVideoContainer
+                                key={element.id}
                                 playerEvent={this.props.playerEvent}
                                 videoId={element.id}
                                 imgUrl={element.snippet.thumbnails.maxres.url}

@@ -1,5 +1,4 @@
 .large-thumbnail-video-container {
-    width: 160px;
     height: 224px;
     border-radius: 16px;
     display: flex;
@@ -12,7 +11,6 @@
 }
 
 .album-art {
-    width: 160px;
     height: 160px;
     background-color: var(--mid-dark-grey);
     border-radius: 16px;
@@ -32,11 +30,10 @@
 
 .album-art-overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    width: inherit;
+    width: 100%;
     height: inherit;
     border-radius: 16px;
     display: none;
-    position: absolute;
 }
 
 .large-thumbnail-video-container:hover .album-art-overlay {
@@ -44,7 +41,7 @@
 }
 
 .thumbnail-text-width {
-    width: 140px !important;
+    width: 80% !important;
 }
 
 .album-art-play {

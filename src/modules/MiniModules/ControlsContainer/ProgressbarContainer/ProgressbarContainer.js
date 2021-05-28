@@ -57,6 +57,9 @@ class ProgressbarContainer extends Component {
 
             // progressbar value calculation to set value on input type=range and updating its style
             progressbarValue = (this.props.playerEvent.target.getCurrentTime() / this.props.playerEvent.target.getDuration()) * 100;
+            if(isNaN(progressbarValue)) {
+                progressbarValue = 0;
+            }
             inlineStyle = {
                 background: `linear-gradient(90deg, var(--accent) ${progressbarValue}%, var(--slider-color) ${progressbarValue}%)`
             };
