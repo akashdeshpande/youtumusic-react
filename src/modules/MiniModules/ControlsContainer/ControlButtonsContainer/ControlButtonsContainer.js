@@ -16,18 +16,31 @@ class ControlButtonsContainer extends Component {
 
     playPause(event) {
         if(this.props.playerEvent.target) {
-            let playBtn = document.querySelector(".play-btn");
             let currentPLayerState = this.props.playerEvent.target.getPlayerState();
             if(currentPLayerState === 1) {
                 // video is playing
                 this.props.playerEvent.target.pauseVideo();
-                playBtn.classList.add("fa-play");
-                playBtn.classList.remove("fa-pause");
             } else if (currentPLayerState === 2) {
                 // video is paused
                 this.props.playerEvent.target.playVideo();
+            }
+        }
+    }
+
+    updatePlayPauseIcon() {
+        // due to the parent component updating every 100ms, this function will keep running
+        // update play-button play pause state
+        if(this.props.playerEvent.target) {
+            let playBtn = document.querySelector(".play-btn");
+            let currentPLayerState = this.props.playerEvent.target.getPlayerState();
+            if(currentPLayerState === 1) {
+                // video is playing
                 playBtn.classList.remove("fa-play");
                 playBtn.classList.add("fa-pause");
+            } else if (currentPLayerState === 2) {
+                // video is paused
+                playBtn.classList.add("fa-play");
+                playBtn.classList.remove("fa-pause");
             }
         }
     }
@@ -71,12 +84,10 @@ class ControlButtonsContainer extends Component {
                 document.querySelector("#volumeBtn").classList.remove("fa-volume-up");
             }
         }
-
     }
 
-    
-
     render() { 
+        this.updatePlayPauseIcon();
         return (
             <div className="contol-buttons-container">
                 <div className="left-buttons"></div>
