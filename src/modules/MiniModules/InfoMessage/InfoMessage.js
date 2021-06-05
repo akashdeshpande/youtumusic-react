@@ -17,7 +17,7 @@ class InfoMessage extends Component {
         return (
             <div className="info-message">
                 <div className="message-body">
-                    Main message body
+                    In case of any error or info, this bar will be displayed
                 </div>
                 <div>
                     <i

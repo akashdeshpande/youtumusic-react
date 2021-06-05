@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 import YouTube from 'react-youtube';
 
 class YoutubeVideo extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             opts: {
                 height: '169',
                 width: '300',
                 playerVars: {
-                  autoplay: 0,
+                    autoplay: 0,
                 }
             },
         }
@@ -18,8 +18,6 @@ class YoutubeVideo extends Component {
     }
 
     videoOnReady(event) {
-        //console.log(event.target.getPlayerState());
-        //store event for later
 
         this.props.setPlayerReady(true);
         this.props.setPlayerEvent(event);
@@ -28,7 +26,7 @@ class YoutubeVideo extends Component {
         this.updateNowPlayingArtist("Frequency Music");
     }
 
-    
+
     updateNowPlayingSongName(songName) {
         this.props.updateNowPlayingSongName(songName);
     }
@@ -37,17 +35,17 @@ class YoutubeVideo extends Component {
         this.props.updateNowPlayingArtist(artistName);
     }
 
-    render() { 
+    render() {
         return (
             <div className="ytimage">
                 <YouTube
-                videoId={this.props.youtubeVideoId}
-                opts={this.state.opts}
-                onReady={this.videoOnReady}
-                id="youtubePlayer" />
+                    videoId={this.props.youtubeVideoId}
+                    opts={this.state.opts}
+                    onReady={this.videoOnReady}
+                    id="youtubePlayer" />
             </div>
         );
     }
 }
- 
+
 export default YoutubeVideo;

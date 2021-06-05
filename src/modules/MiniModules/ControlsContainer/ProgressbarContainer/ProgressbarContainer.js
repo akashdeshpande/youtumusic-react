@@ -5,9 +5,7 @@ class ProgressbarContainer extends Component {
     
     constructor(props) {
         super (props);
-        this.state = {
-            keepRunning: true
-        }
+
         this.setSeek = this.setSeek.bind(this);
     }
 
@@ -19,15 +17,15 @@ class ProgressbarContainer extends Component {
 
     }
 
-    componentDidMount() {
-        setInterval(() => {
-            if(this.props.playerEvent.target) {
-                this.setState({
-                    keepRunning: true
-                }) 
-            }
-        }, 100);
+    addZeroIfSingleDigit(timeInSeconds) {
+        let timeInSec = timeInSeconds
+        if(Math.floor(timeInSec/10) === 0) {
+            timeInSec = `0${timeInSec}`;
+        }
+        return timeInSec;
     }
+
+
 
     render() { 
 
@@ -54,6 +52,12 @@ class ProgressbarContainer extends Component {
             elapsedTimeInSeconds = Math.floor(this.props.playerEvent.target.getCurrentTime() % 60);
             timeDurationInMinutes = Math.floor(this.props.playerEvent.target.getDuration() / 60);
             timeDurationInSeconds = Math.floor(this.props.playerEvent.target.getDuration() % 60);
+
+            //add zero before single digit
+            elapsedTimeInMinutes = this.addZeroIfSingleDigit(elapsedTimeInMinutes);
+            elapsedTimeInSeconds = this.addZeroIfSingleDigit(elapsedTimeInSeconds);
+            timeDurationInMinutes = this.addZeroIfSingleDigit(timeDurationInMinutes);
+            timeDurationInSeconds = this.addZeroIfSingleDigit(timeDurationInSeconds);
 
             // progressbar value calculation to set value on input type=range and updating its style
             progressbarValue = (this.props.playerEvent.target.getCurrentTime() / this.props.playerEvent.target.getDuration()) * 100;

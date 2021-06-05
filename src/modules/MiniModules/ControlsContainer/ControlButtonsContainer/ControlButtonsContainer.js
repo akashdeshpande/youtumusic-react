@@ -55,9 +55,6 @@ class ControlButtonsContainer extends Component {
 
     volumeClick(event){
         //set mute
-        //this.props.playerEvent.isMuted();
-        //this.props.playerEvent.mute();
-        //this.props.playerEvent.unMute();
         //#volumeBtn
         if(this.props.playerEvent.target) {
             if(this.props.playerEvent.target.isMuted()) {
@@ -74,9 +71,10 @@ class ControlButtonsContainer extends Component {
                 document.querySelector("#volumeBtn").classList.remove("fa-volume-up");
             }
         }
-        
-        //update icon
+
     }
+
+    
 
     render() { 
         return (

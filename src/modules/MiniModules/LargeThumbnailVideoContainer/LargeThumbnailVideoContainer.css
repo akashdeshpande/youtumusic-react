@@ -26,6 +26,7 @@
     align-items: center;
     text-align: center;
     flex: 1;
+    user-select: none;
 }
 
 .album-art-overlay {
