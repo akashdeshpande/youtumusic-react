@@ -51,12 +51,14 @@ class MainSpace extends Component {
                 setPlayerEvent={this.props.setPlayerEvent}
                 setPlayerReady={this.props.setPlayerReady}
                 />
+
                 <div className="content">
                     <div className="top">
                         <SearchBar />
                         <UserProfile />
                     </div>
                     <InfoMessage />
+
                     <div className="workspace">
                         <div className="search-results">
                             {
@@ -67,12 +69,13 @@ class MainSpace extends Component {
                                 imgUrl={element.snippet.thumbnails.maxres.url}
                                 videoTitle={element.snippet.title}
                                 channelTitle={element.snippet.channelTitle}
+                                updateNowPlayingSongName={this.props.updateNowPlayingSongName}
+                                updateNowPlayingArtist={this.props.updateNowPlayingArtist}
                             />)
                             }
-                            
 
-                            
                         </div>
+
                     </div>
                 </div>
             </div>

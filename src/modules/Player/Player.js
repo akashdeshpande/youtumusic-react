@@ -8,7 +8,7 @@ class Player extends Component {
         return (
             <div id="player">
                 <SongDetailsContainer
-                    nowPlayinSongName={this.props.nowPlayinSongName}
+                    nowPlayingSongName={this.props.nowPlayingSongName}
                     nowPlayingArtist={this.props.nowPlayingArtist}
                 />
                 <ControlsContainer

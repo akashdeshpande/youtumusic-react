@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 class LargeThumbnailVideoContainer extends Component {
     constructor(props) {
         super(props);
-        this.loadAndPlayVider = this.loadAndPlayVider.bind(this);
+        this.loadAndPlayVideo = this.loadAndPlayVideo.bind(this);
     }
 
-    loadAndPlayVider(event) {
+    loadAndPlayVideo(event) {
         //ilt0gIhyPUQ is video id
         // also works: loadVideoByUrl
 
@@ -15,6 +15,10 @@ class LargeThumbnailVideoContainer extends Component {
 
         //load id to player
         this.props.playerEvent.target.loadVideoById(this.props.videoId);
+
+        //update song name and channel name
+        this.props.updateNowPlayingSongName(this.props.videoTitle);
+        this.props.updateNowPlayingArtist(this.props.channelTitle);
     }
 
     /*
@@ -33,7 +37,7 @@ class LargeThumbnailVideoContainer extends Component {
                         <div className="album-art-play">
                             <i
                                 className="fa fa-play album-art-play-icon"
-                                onClick={this.loadAndPlayVider}
+                                onClick={this.loadAndPlayVideo}
                             ></i>
                         </div>
                     </div>

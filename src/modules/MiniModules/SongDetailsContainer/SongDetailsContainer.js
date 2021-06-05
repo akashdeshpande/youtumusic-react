@@ -7,7 +7,7 @@ class SongDetailsContainer extends Component {
             <div className="song-details-container">
                 <div>
                     <div className="song-name">
-                        {this.props.nowPlayinSongName}
+                        {this.props.nowPlayingSongName}
                     </div>
                     <div className="artist-name">
                         {this.props.nowPlayingArtist}

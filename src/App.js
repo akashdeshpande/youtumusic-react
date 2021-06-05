@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
     this.state = {
       youtubeVideoId: 'auZFGkxQSSk',
-      nowPlayinSongName: '',
+      nowPlayingSongName: '',
       nowPlayingArtist: '',
       playerEvent: {},
       playerReady: false
@@ -22,7 +22,7 @@ class App extends Component {
 
   updateNowPlayingSongName(songName) {
     this.setState({
-      nowPlayinSongName: songName
+      nowPlayingSongName: songName
     });
   }
 
@@ -56,7 +56,7 @@ class App extends Component {
           playerEvent={this.state.playerEvent}
         />
         <Player
-          nowPlayinSongName={this.state.nowPlayinSongName}
+          nowPlayingSongName={this.state.nowPlayingSongName}
           nowPlayingArtist={this.state.nowPlayingArtist}
           playerEvent={this.state.playerEvent}
           playerReady={this.state.playerReady}
